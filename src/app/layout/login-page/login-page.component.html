@@ -1,0 +1,47 @@
+<div class="card">
+    <div class="align-content-center flex flex-column  justify-content-center card-container" style="min-height: 100vh;">
+        <div class="font-italic text-7xl mb-4 align-items-center flex justify-content-center text-center">
+            <span class="font-bold">Sign in</span>
+            <span class="ml-4 font-light">form</span>
+
+        </div>
+        <div class="gird border-round-3xl border-round flex align-items-center flex justify-content-center border-1"
+            style="height: 60vh; margin-left: 10%; margin-right: 10%;">
+            <div class="flex flex-column  border-right-2 h-full align-items-center flex justify-content-center" style="width: 190%;">
+                <div class="text-4xl mb-4 flex align-items-center justify-content-center">
+                    Hello!
+                </div>
+                <div class="text-2xl mb-4 flex align-items-center justify-content-center">
+                    Sign into Your Account!
+                </div>
+                <div class="text-xl flex align-items-center justify-content-center w-6">
+                    <span class="p-input-icon-left w-full">
+                        <i class="pi pi-envelope"></i>
+                        <input class="w-full" type="text" [(ngModel)]="txtUserName" pInputText />
+                    </span>
+                </div>
+                <div class="text-xl flex align-items-center justify-content-center w-6 mt-2">
+                    <p-password class="w-full" [(ngModel)]="txtPassword"></p-password>
+                </div>
+                <div class="gird text-xm flex align-items-center justify-content-center w-6">
+                    <div class="col-6">Remenmber me</div>
+                    <div class="col-6 text-right">Forgot password?</div>
+                </div>
+                <div class="gird text-xl flex align-items-center justify-content-center mt-5">
+                    <p-button label="Login" (onClick)="signin()"></p-button>
+                </div>
+            </div>
+            <div class="bg-orange-500 border-round-right-3xl text-0 flex flex-column h-full align-items-center flex justify-content-center"
+                style="padding-left: 9%; padding-right: 9%;">
+                <div class="text-4xl mb-4 flex align-items-center justify-content-center">
+                    Welcome Back!
+                </div>
+                <div class="text-xl flex align-items-center justify-content-center">
+                    lorem ipsum dolor sit amet.
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor inci-didunt ut labore ut labore et dolore magna aliqa
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
